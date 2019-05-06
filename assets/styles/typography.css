@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "Noah";
+	src: url("../fonts/Noah-Regular.woff"); /*Добавление шрифта в код*/
+	font-weight: normal;
+}
+
+
+@font-face {
+	font-family: "Noah";
+	src: url("../fonts/Noah-Bold.woff");	/*Добавление шрифта в код*/
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "MullerExtraBold";
+	src: url("../fonts/MullerExtraBold.otf");	/*Добавление шрифта в код*/
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "MullerMedium";
+	src: url("../fonts/MullerMedium.otf");	/*Добавление шрифта в код*/
+	font-weight: 900;
+}
+
+
+body {
+	font-family: "Noah";
+}

@@ -1,0 +1,57 @@
+* { 
+	box-sizing: border-box; 
+} 
+body { 
+	margin: 0;
+} 
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px 0 15px;
+}
+
+.section-main {
+	background-color: #8e3ddb;
+	color: white;
+	padding-bottom: 15px;
+}
+
+.main__img {
+	min-width: 50%;
+}
+
+.main__desc > h1 {
+	font-family: "MullerExtraBold";
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.main__desc > h4 {
+	font-family: "MullerMedium";
+	font-size: 21px;
+}
+
+.section__content.-main {
+	display: flex;
+	height: 500px;
+	justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		width: 768px;
+		padding: 0;
+	}	
+}
+
+@media screen and (min-width: 1280px) {
+	.container {
+		width: 1280px;
+		padding: 0;
+	}	
+}

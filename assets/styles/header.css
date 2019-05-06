@@ -1,0 +1,50 @@
+.header {
+	font-family: sans-serif, Geneva;
+	padding-top: 23px;
+	font-weight: 900;
+	display: flex;
+	justify-content: space-between;
+}
+.header__right {
+	display: flex;
+	justify-content: space-around;
+}
+
+.header__controls {
+	display: flex;
+	justify-content: space-between;
+}
+
+.phone > a {
+	color: #fff;
+}
+
+.navigation {
+	font-size: 14px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.navigation > a {
+	color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+	.header__right.-mobile {
+		display: block;
+	}
+
+	.header__right.-desktop {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	.header__right.-mobile {
+		display: none;
+	}
+
+	.header__right.-desktop {
+		display: flex;
+	}
+}
