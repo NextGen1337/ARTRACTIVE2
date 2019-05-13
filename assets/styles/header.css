@@ -3,16 +3,16 @@
 	padding-top: 23px;
 	font-weight: 900;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	line-height: 50px;
 }
-.header__right {
-	display: flex;
+
+.header__right.-desktop {
 	justify-content: space-around;
 }
 
 .header__controls {
-	display: flex;
-	justify-content: space-between;
+	font-size: 10px;
 }
 
 .phone > a {
@@ -20,13 +20,20 @@
 }
 
 .navigation {
-	font-size: 14px;
 	display: flex;
-	justify-content: space-around;
+	font-size: 12px;
 }
 
 .navigation > a {
 	color: #fff;
+}
+
+.section__content {
+	display: flex;
+	flex-direction: row;
+}
+
+.main__order {
 }
 
 @media screen and (max-width: 768px) {
